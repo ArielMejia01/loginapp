@@ -1,10 +1,11 @@
-import './Cards.css'
-function CardHolder ({Children}){
-    return(
-        <section className="CardHolder">
-            {Children}
-        </section>
-    );
+import './Cards.css';
+function CardHolder ({children}){
+
+  return (
+    <section className="CardHolder">
+      {children}
+    </section>
+  );
 }
 
 export default CardHolder;
