@@ -13,9 +13,9 @@ function FormAction({caption, onClick}){
       "font-medium",
       "rounded-lg",
       "text-white",
-      "text-indigo-700",
-      "bg-indigo-100",
-      "hover:bg-indigo-200",
+      "text-white-900",
+      "bg-green-700",
+      "hover:bg-green-600",
       "md:py-4",
       "md:text-lg",
       "md:px-10"

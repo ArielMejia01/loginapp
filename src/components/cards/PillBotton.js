@@ -13,9 +13,9 @@ function PillBotton({type, text, click}){
       "font-medium",
       "rounded-lg",
       "text-white",
-      "text-indigo-700",
-      "bg-indigo-100",
-      "hover:bg-indigo-200",
+      "text-white-900",
+      "bg-green-900",
+      "hover:bg-green-700",
       "md:py-4",
       "md:text-lg",
       "md:px-10"
