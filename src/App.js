@@ -2,6 +2,11 @@
 import './App.css';
 import BrandHeader from './components/BrandHeader/BrandHeader';
 import Login from './components/Pages/Login';
+
+
+//incorporando elementos de react router los cuales nos 
+//permitira saber en que lugar esta
+import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 //import Cards from './components/Cards/Cards';
 //import CardHolder from './components/Cards/CardHolder';
 
@@ -9,11 +14,20 @@ import Login from './components/Pages/Login';
 
 function App() {
   return (
-    <section>
-      <BrandHeader></BrandHeader>
-      <Login></Login>
-      
-    </section>
+    <Router>
+      <section>
+        <BrandHeader></BrandHeader>
+        <Switch>
+          <Route path="/" exact>
+            <section>Home</section>
+          </Route>
+          <Route path="/login" exact>
+            <Login></Login>
+          </Route>
+        </Switch>
+      </section>
+    </Router>
+    
   );
 }
 

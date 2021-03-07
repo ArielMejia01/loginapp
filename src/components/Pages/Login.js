@@ -1,5 +1,5 @@
 import Login from '../Login/Login';
-function Login(){
+function LoginPage(){
     return(
         <section>
              <Login></Login>
@@ -7,4 +7,4 @@ function Login(){
     )
 }
 
-export default Login;
+export default LoginPage;
