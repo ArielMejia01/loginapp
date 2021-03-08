@@ -1,7 +1,7 @@
 function Home(){
     return(
         <section>
-            <h1>Todo WApp version1</h1>
+            <h1>To Do App V-1.1</h1>
         </section>
     );
 }
