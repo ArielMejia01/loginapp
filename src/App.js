@@ -2,6 +2,8 @@
 import './App.css';
 import BrandHeader from './components/BrandHeader/BrandHeader';
 import Login from './components/Pages/Login';
+import Home from './components/Pages/Home';
+import Todo from './components/Pages/TodoApp/Todo';
 
 
 //incorporando elementos de react router los cuales nos 
@@ -19,7 +21,10 @@ function App() {
         <BrandHeader></BrandHeader>
         <Switch>
           <Route path="/" exact>
-            <section>Home</section>
+            <Home />
+          </Route>
+          <Route path="/todos" exact>
+            <Todo />
           </Route>
           <Route path="/login" exact>
             <Login></Login>
