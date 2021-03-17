@@ -10,7 +10,7 @@ const options = {
   }
 };
 
-export default getCountryCodeTotal = (handler)=>{
+export default (handler)=>{
 
   axios.request(options).then(function (response) {
     console.log(response.data);

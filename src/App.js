@@ -4,6 +4,7 @@ import BrandHeader from './components/BrandHeader/BrandHeader';
 import Login from './components/Pages/Login';
 import Home from './components/Pages/Home';
 import Todo from './components/Pages/TodoApp/Todo';
+import Covid from './components/Pages/Covid/Covid';
 
 
 //incorporando elementos de react router los cuales nos 
@@ -28,6 +29,9 @@ function App() {
           </Route>
           <Route path="/login" exact>
             <Login></Login>
+          </Route>
+          <Route path="/covid" exact>
+            <Covid></Covid>
           </Route>
         </Switch>
       </section>
